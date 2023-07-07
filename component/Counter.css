@@ -1,0 +1,14 @@
+@keyframes starsAnimation {
+    100% {
+      background-position: 10000px 1000px;
+    }
+    100% {
+      background-position: 10000px 5000px;
+    }
+  }
+  
+  .background-container {
+    animation: starsAnimation 200s linear infinite;
+    background: url('./b11.jpg') repeat;
+  }
+  
